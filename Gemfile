@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 gem 'twitter-bootstrap-rails'
 # Use sqlite3 as the database for Active Record
 group :development do
-  gem 'sqlite3'
+  gem 'pg'
 end
 group :production do
   gem 'pg'
